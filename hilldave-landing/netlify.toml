@@ -1,0 +1,9 @@
+[build]
+  base = "hilldave-landing/client"
+  command = "npm run build"
+  publish = "hilldave-landing/client/dist"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
